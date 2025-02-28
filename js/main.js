@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(function(){const e=document.getElementById("emailUser"),t=document.getElementById("emailDomain");if(e&&t){const n=e.getAttribute("value"),o=t.getAttribute("value"),m=atob(n)+"@"+atob(o);document.getElementById("emailLink").href="mailto:"+m}}));
